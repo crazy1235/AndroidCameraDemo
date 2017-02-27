@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final int REQUEST_CODE_CAMERA = 0x001;
 
     private Button sysCameraBtn;
+    private Button sysCropBtn;
     private Button customCameraBtn;
     private ImageView imageView;
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         sysCameraBtn = (Button) findViewById(R.id.open_sys_camera);
+        sysCropBtn = (Button) findViewById(R.id.open_sys_crop);
         customCameraBtn = (Button) findViewById(R.id.open_custom_camera);
         imageView = (ImageView) findViewById(R.id.capture_picture);
 
@@ -39,6 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.open_sys_camera:
 
                 openSysCamera();
+
+                break;
+            case R.id.open_sys_crop:
 
                 break;
             case R.id.open_custom_camera:

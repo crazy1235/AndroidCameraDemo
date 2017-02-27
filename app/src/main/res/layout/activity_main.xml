@@ -15,6 +15,12 @@
         android:text="@string/btn_sys_camera" />
 
     <Button
+        android:id="@+id/open_sys_crop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sys_crop" />
+
+    <Button
         android:id="@+id/open_custom_camera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -3,4 +3,5 @@
     <string name="btn_sys_camera">系统相机</string>
     <string name="btn_custom_camera">自定义相机</string>
     <string name="title_activity_custom_camera">CustomCameraActivity</string>
+    <string name="btn_sys_crop">系统裁切</string>
 </resources>
