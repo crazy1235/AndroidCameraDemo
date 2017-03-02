@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button sysCameraBtn;
     private Button sysCropBtn;
+    private Button cameraBtn;
+    private Button camera2Btn;
     private Button customCameraBtn;
     private ImageView imageView;
 
@@ -28,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         sysCameraBtn = (Button) findViewById(R.id.open_sys_camera);
         sysCropBtn = (Button) findViewById(R.id.open_sys_crop);
+        cameraBtn = (Button) findViewById(R.id.open_camera);
+        camera2Btn = (Button) findViewById(R.id.open_camera2);
         customCameraBtn = (Button) findViewById(R.id.open_custom_camera);
         imageView = (ImageView) findViewById(R.id.capture_picture);
 
@@ -44,6 +48,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.open_sys_crop:
+
+                break;
+            case R.id.open_camera:
+                
+                break;
+            case R.id.open_camera2:
 
                 break;
             case R.id.open_custom_camera:
