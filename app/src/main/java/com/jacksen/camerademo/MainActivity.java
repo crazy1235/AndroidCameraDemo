@@ -40,7 +40,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.open_sys_camera:
 
-                openSysCamera();
+                startActivity(new Intent(MainActivity.this, SysCameraActivity.class));
+
+//                openSysCamera();
 
                 break;
             case R.id.open_sys_crop:
