@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">AndroidCameraDemo</string>
     <string name="btn_sys_camera">系统相机</string>
+    <string name="btn_camera">Camera</string>
+    <string name="btn_camera2">Camera2</string>
     <string name="btn_custom_camera">自定义相机</string>
     <string name="title_activity_custom_camera">CustomCameraActivity</string>
     <string name="btn_sys_crop">系统裁切</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
